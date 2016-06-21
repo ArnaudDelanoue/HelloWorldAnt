@@ -30,3 +30,11 @@ training@ubuntu-devops:~/devops/repomartes$ javac -sourcepath src -d build/class
 training@ubuntu-devops:~/devops/repomartes$ java -cp build/classes oata.HelloWorld
 Hello World
 ```
+
+## Ignorar todos los jars excepto los de la carpeta lib
+
+en .gitignore:
+```
+*.jar
+!lib
+```
